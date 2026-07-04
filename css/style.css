@@ -217,19 +217,20 @@ h2{
   border: 1px solid rgba(230,23,140,0.06);
 }
 .product-img{
+  height: 260px;
   background: var(--pink-soft);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .product-img img{
-  width: 100%; height: auto;
-  display: block;
-  object-fit: contain;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .product-img-placeholder{
   font-size: 56px;
-  height: 220px;
+  height: 260px;
 }
 .product-body{
   padding: 22px;
