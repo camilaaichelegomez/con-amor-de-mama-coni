@@ -187,11 +187,9 @@ em{ color: var(--pink); font-style: normal; }
   animation: swing 4.5s ease-in-out infinite;
 }
 .swing-img{
-  width: min(360px, 78vw);
-  border-radius: 50%;
-  box-shadow: 0 24px 60px rgba(53,183,206,0.35);
-  border: 8px solid rgba(255,255,255,0.85);
+  width: min(380px, 80vw);
   display: block;
+  filter: drop-shadow(0 24px 40px rgba(53,183,206,0.45));
 }
 @keyframes swing{
   0%, 100%{ transform: rotate(3.5deg); }
@@ -469,10 +467,8 @@ h2{
   justify-content: center;
 }
 .historia-img-wrap img{
-  width: min(380px, 82vw);
-  border-radius: 50%;
-  border: 8px solid #fff;
-  box-shadow: 0 24px 60px rgba(255,158,94,0.35);
+  width: min(400px, 84vw);
+  filter: drop-shadow(0 24px 40px rgba(255,158,94,0.45));
   animation: gentle-bob 5s ease-in-out infinite;
 }
 .historia-text h2{ margin-bottom: 20px; }
